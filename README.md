@@ -15,10 +15,10 @@
 - **pandas**
 - **soundfile==0.9.0**
 - **wave**
--**scikit-learn==0.24.2**
--**tqdm==4.28.1**
--**matplotlib==2.2.3**
--**pyaudio==0.2.11**
+- **scikit-learn==0.24.2**
+- **tqdm==4.28.1**
+- **matplotlib==2.2.3**
+- **pyaudio==0.2.11**
 
 ### Dataset
 This repository used 6 datasets including RAVDESS, TESS, SAVEE, EMO-DB, CREMA-D, and EMOVO.
