@@ -48,7 +48,7 @@ conda env create -f environment.yml
 ```
 features extraction
 
-To extract the MFCC and Chorma features run
+To extract the MFCC and Chroma features run
 ```
 preprocessing files
 ```
