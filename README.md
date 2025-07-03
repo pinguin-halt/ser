@@ -30,7 +30,7 @@ I have provided the link for downloading the datasets
 - [**EMOVO**](https://www.kaggle.com/datasets/sourabhy/emovo-italian-ser-dataset)
 - [**EmoDB**](https://www.kaggle.com/datasets/piyushagni5/berlin-database-of-emotional-speech-emodb)
 ## Model Archietecture
-![Figure](Speech Emotion Recogition/Figure/archietecture.png)
+![Figure](Figure/archietecture.png)
 
 ## Installation
 
