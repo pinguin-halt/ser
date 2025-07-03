@@ -1,0 +1,76 @@
+# Speeh Emotion Recognition
+
+### Introduction
+
+- This repository handles building and training Speech Emotion Recognition System.
+- The basic idea behind this tool is to build and train/test a suited machine learning ( as well as deep learning ) algorithm that could recognize and detects human emotions from speech.
+- This is useful for many industry fields such as making product recommendations, affective computing, etc.
+
+## Requirements
+- **Python 3.8+**
+### Python Packages
+- **Tensorflow**
+- **librosa==0.6.3**
+- **numpy**
+- **pandas**
+- **soundfile==0.9.0**
+- **wave**
+-**scikit-learn==0.24.2**
+-**tqdm==4.28.1**
+-**matplotlib==2.2.3**
+-**pyaudio==0.2.11**
+
+### Dataset
+This repository used 6 datasets including RAVDESS, TESS, SAVEE, EMO-DB, CREMA-D, and EMOVO.
+I have provided the link for downloading the datasets 
+- [**RAVDESS**]: (https://www.kaggle.com/code/shivamburnwal/speech-emotion-recognition)
+- [**CREMA-D**]: (https://www.kaggle.com/datasets/ejlok1/cremad)
+- [**SAVEE**]: (https://www.kaggle.com/datasets/ejlok1/surrey-audiovisual-expressed-emotion-savee)
+- [**TESS**]: (https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess)
+## Model Archietecture
+![Output](demos/demo_min.gif)
+
+## Installation
+
+To install and run the app, follow these steps:
+
+Clone the repository 
+
+```
+git clone https://github.com/codemaker2015/pdf-chat-using-RAG
+```
+
+Add your OpenAI Key by creating a .env file in the folder and add the following within it:
+
+```
+OPENAI_API_KEY=
+OPENAI_MODEL_NAME=gpt-3.5-turbo
+OPENAI_EMBEDDING_MODEL_NAME=text-embedding-3-small
+```
+
+Create a Virtual Environment
+
+```
+pip install virtualenv
+```
+
+to run this app do activate environment and run app
+
+```
+python -m venv venv
+source venv/bin/activate #for ubuntu
+venv/Scripts/activate #for windows
+```
+
+Install the dependencies using requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
+
+```
+streamlit run app.py
+```
+
+
+
