@@ -42,12 +42,17 @@ Clone the repository
 ```
 git@github.com:spilabkorea/ser.git
 ```
-Install the  libraries by the following command
+Install the libraries by the following command
 ```
 conda env create -f environment.yml
 ```
 features extraction
+
 To extract the MFCC and Chorma features run
 ```
 preprocessing files
 ```
+Train the models
+for the model trainining run the training scripts
+
+
