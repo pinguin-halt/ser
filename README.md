@@ -35,7 +35,7 @@ In this repository, we have used the following features
 - Chorma
 ## Installation
 
-To install and run the app, follow these steps:
+To run the code, follow these steps:
 
 Clone the repository 
 
