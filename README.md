@@ -1,34 +1,30 @@
 # Speeh Emotion Recognition
 
-### Finding proper answer from PDF content.
+### Introduction
 
-PDF documents often contain numerous pages, making it time-consuming for users to locate specific answers to their questions. 
+This repository handles building and training Speech Emotion Recognition System
+The basic idea behind this tool is to build and train/test a suited machine learning ( as well as deep learning ) algorithm that could recognize and detects human emotions from speech.
+This is useful for many industry fields such as making product recommendations, affective computing, etc.
 
-This project aims to develop a chatbot capable of interacting with users and providing precise answers from a collection of PDF documents. By leveraging natural language processing and machine learning techniques, the chatbot can comprehend user queries and retrieve relevant information efficiently. Utilizing OpenAI models, the chatbot harnesses advanced language models and embeddings to enhance conversational capabilities and deliver accurate responses.
+## Requirements
+  Python 3.8+
+# Python Packages
+ensorflow
+librosa==0.6.3
+numpy
+pandas
+soundfile==0.9.0
+wave
+scikit-learn==0.24.2
+tqdm==4.28.1
+matplotlib==2.2.3
+pyaudio==0.2.11
 
-## Features
+## Dataset
+This repository used 6 datasets including RAVDESS, TESS, SAVEE, EMO-DB, CREMA-D, and EMOVO
 
-- **Support for Multiple PDFs**: Users can upload and query information from multiple PDF documents, enabling access to a variety of sources.  
-- **Conversational Retrieval**: The chatbot employs advanced conversational retrieval techniques to deliver relevant, context-aware responses.  
-- **Integration of Language Models**: OpenAI's language models are utilized for natural language understanding and generation, allowing the chatbot to engage in meaningful interactions.  
-- **PDF Content Extraction**: Text content is extracted from uploaded PDFs, forming the basis for indexing and retrieval.  
-- **Text Chunking for Efficiency**: The extracted text is divided into smaller chunks, enhancing retrieval efficiency and ensuring precise answers.  
-
-## Usage
-
-- **Upload PDF Files**: Utilize the sidebar to upload one or more PDF documents to the application.  
-- **Ask Your Questions**: Enter questions in the main chat interface related to the content of the uploaded PDFs.  
-- **Get Answers**: The chatbot will provide responses based on the information extracted from the PDFs.  
-
-## Sample Output
+## Model Archietecture
 ![Output](demos/demo_min.gif)
-
-### WorkFlow
-![WorkFlow](workflow.png)
-
-### Query Flow
-![Query Flow](queryflow.png)
-
 
 ## Installation
 
