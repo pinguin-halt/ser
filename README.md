@@ -28,7 +28,7 @@ I have provided the link for downloading the datasets
 - [**SAVEE**]: (https://www.kaggle.com/datasets/ejlok1/surrey-audiovisual-expressed-emotion-savee)
 - [**TESS**]: (https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess)
 ## Model Archietecture
-![Output](demos/demo_min.gif)
+![Figure](demos/demo_min.gif)
 
 ## Installation
 
