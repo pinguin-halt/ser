@@ -23,10 +23,10 @@
 ### Dataset
 This repository used 6 datasets including RAVDESS, TESS, SAVEE, EMO-DB, CREMA-D, and EMOVO.
 I have provided the link for downloading the datasets 
-- [**RAVDESS**]: (https://www.kaggle.com/code/shivamburnwal/speech-emotion-recognition)
-- [**CREMA-D**]: (https://www.kaggle.com/datasets/ejlok1/cremad)
-- [**SAVEE**]: (https://www.kaggle.com/datasets/ejlok1/surrey-audiovisual-expressed-emotion-savee)
-- [**TESS**]: (https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess)
+- [**RAVDESS**](https://www.kaggle.com/code/shivamburnwal/speech-emotion-recognition)
+- [**CREMA-D**](https://www.kaggle.com/datasets/ejlok1/cremad)
+- [**SAVEE**](https://www.kaggle.com/datasets/ejlok1/surrey-audiovisual-expressed-emotion-savee)
+- [**TESS**](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess)
 ## Model Archietecture
 ![Figure](Speech Emotion Recogition/Figure/archietecture.png)
 
