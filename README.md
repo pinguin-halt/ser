@@ -1,4 +1,4 @@
-# Speeh Emotion Recognition
+# Speech Emotion Recognition
 
 ### Introduction
 
