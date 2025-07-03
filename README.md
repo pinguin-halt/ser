@@ -27,6 +27,8 @@ I have provided the link for downloading the datasets
 - [**CREMA-D**](https://www.kaggle.com/datasets/ejlok1/cremad)
 - [**SAVEE**](https://www.kaggle.com/datasets/ejlok1/surrey-audiovisual-expressed-emotion-savee)
 - [**TESS**](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess)
+- [**EMOVO**](https://www.kaggle.com/datasets/sourabhy/emovo-italian-ser-dataset)
+- [**EmoDB**](https://www.kaggle.com/datasets/piyushagni5/berlin-database-of-emotional-speech-emodb)
 ## Model Archietecture
 ![Figure](Speech Emotion Recogition/Figure/archietecture.png)
 
