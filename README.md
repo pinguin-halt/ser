@@ -40,37 +40,5 @@ Clone the repository
 git@github.com:spilabkorea/ser.git
 ```
 
-Add your OpenAI Key by creating a .env file in the folder and add the following within it:
-
-```
-OPENAI_API_KEY=
-OPENAI_MODEL_NAME=gpt-3.5-turbo
-OPENAI_EMBEDDING_MODEL_NAME=text-embedding-3-small
-```
-
-Create a Virtual Environment
-
-```
-pip install virtualenv
-```
-
-to run this app do activate environment and run app
-
-```
-python -m venv venv
-source venv/bin/activate #for ubuntu
-venv/Scripts/activate #for windows
-```
-
-Install the dependencies using requirements.txt
-
-```bash
-pip install -r requirements.txt
-```
-
-```
-streamlit run app.py
-```
-
 
 
