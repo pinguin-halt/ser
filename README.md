@@ -45,6 +45,9 @@ git@github.com:spilabkorea/ser.git
 Install the  libraries by the following command
 ```
 conda env create -f environment.yml
-
 ```
-
+features extraction
+To extract the MFCC and Chorma features run
+```
+preprocessing files
+```
