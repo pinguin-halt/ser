@@ -32,12 +32,11 @@ I have provided the link for downloading the datasets
 ## Model Archietecture
 ![Figure](Speech Emotion Recogition/Figure/archietecture.png)
 ## Feature Extraction
-
-## Installation
 Feature extraction is the main part of the speech emotion recognition system. It is basically accomplished by changing the speech waveform to a form of parametric representation at a relatively lesser data rate
 In this repository, we have used the following features
 - MFCC
 - Chorma
+## Installation
 
 To install and run the app, follow these steps:
 
