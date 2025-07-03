@@ -37,7 +37,7 @@ To install and run the app, follow these steps:
 Clone the repository 
 
 ```
-git clone https://github.com/codemaker2015/pdf-chat-using-RAG
+git@github.com:spilabkorea/ser.git
 ```
 
 Add your OpenAI Key by creating a .env file in the folder and add the following within it:
