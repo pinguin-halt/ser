@@ -2,27 +2,31 @@
 
 ### Introduction
 
-This repository handles building and training Speech Emotion Recognition System
-The basic idea behind this tool is to build and train/test a suited machine learning ( as well as deep learning ) algorithm that could recognize and detects human emotions from speech.
-This is useful for many industry fields such as making product recommendations, affective computing, etc.
+- This repository handles building and training Speech Emotion Recognition System.
+- The basic idea behind this tool is to build and train/test a suited machine learning ( as well as deep learning ) algorithm that could recognize and detects human emotions from speech.
+- This is useful for many industry fields such as making product recommendations, affective computing, etc.
 
 ## Requirements
-  Python 3.8+
-# Python Packages
-ensorflow
-librosa==0.6.3
-numpy
-pandas
-soundfile==0.9.0
-wave
-scikit-learn==0.24.2
-tqdm==4.28.1
-matplotlib==2.2.3
-pyaudio==0.2.11
+- **Python 3.8+**
+### Python Packages
+- **Tensorflow**
+- **librosa==0.6.3**
+- **numpy**
+- **pandas**
+- **soundfile==0.9.0**
+- **wave**
+-**scikit-learn==0.24.2**
+-**tqdm==4.28.1**
+-**matplotlib==2.2.3**
+-**pyaudio==0.2.11**
 
-## Dataset
-This repository used 6 datasets including RAVDESS, TESS, SAVEE, EMO-DB, CREMA-D, and EMOVO
-
+### Dataset
+This repository used 6 datasets including RAVDESS, TESS, SAVEE, EMO-DB, CREMA-D, and EMOVO.
+I have provided the link for downloading the datasets 
+- [**RAVDESS**]: (https://www.kaggle.com/code/shivamburnwal/speech-emotion-recognition)
+- [**CREMA-D**]: (https://www.kaggle.com/datasets/ejlok1/cremad)
+- [**SAVEE**]: (https://www.kaggle.com/datasets/ejlok1/surrey-audiovisual-expressed-emotion-savee)
+- [**TESS**]: (https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess)
 ## Model Archietecture
 ![Output](demos/demo_min.gif)
 
