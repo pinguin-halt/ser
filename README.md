@@ -1,75 +1,43 @@
-# Speech Emotion Recognition
+Speech Emotion Recognition
+Introduction
+This repository handles building and training Speech Emotion Recognition System.
+The basic idea behind this tool is to build and train/test a suited machine learning ( as well as deep learning ) algorithm that could recognize and detects human emotions from speech.
+This is useful for many industry fields such as making product recommendations, affective computing, etc.
+Check this tutorial for more information.
+Requirements
+Python 3.6+
+Python Packages
+tensorflow
+librosa==0.6.3
+numpy
+pandas
+soundfile==0.9.0
+wave
+scikit-learn==0.24.2
+tqdm==4.28.1
+matplotlib==2.2.3
+pyaudio==0.2.11
+ffmpeg (optional): used if you want to add more sample audio by converting to 16000Hz sample rate and mono channel which is provided in convert_wavs.py
+Install these libraries by the following command:
 
-### Finding proper answer from PDF content.
+pip3 install -r requirements.txt
+Dataset
+This repository used 4 datasets (including this repo's custom dataset) which are downloaded and formatted already in data folder:
 
-PDF documents often contain numerous pages, making it time-consuming for users to locate specific answers to their questions. 
+RAVDESS : The Ryson Audio-Visual Database of Emotional Speech and Song that contains 24 actors (12 male, 12 female), vocalizing two lexically-matched statements in a neutral North American accent.
+TESS : Toronto Emotional Speech Set that was modeled on the Northwestern University Auditory Test No. 6 (NU-6; Tillman & Carhart, 1966). A set of 200 target words were spoken in the carrier phrase "Say the word _____' by two actresses (aged 26 and 64 years).
+EMO-DB : As a part of the DFG funded research project SE462/3-1 in 1997 and 1999 we recorded a database of emotional utterances spoken by actors. The recordings took place in the anechoic chamber of the Technical University Berlin, department of Technical Acoustics. Director of the project was Prof. Dr. W. Sendlmeier, Technical University of Berlin, Institute of Speech and Communication, department of communication science. Members of the project were mainly Felix Burkhardt, Miriam Kienast, Astrid Paeschke and Benjamin Weiss.
+Custom : Some unbalanced noisy dataset that is located in data/train-custom for training and data/test-custom for testing in which you can add/remove recording samples easily by converting the raw audio to 16000 sample rate, mono channel (this is provided in create_wavs.py script in convert_audio(audio_path) method which requires ffmpeg to be installed and in PATH) and adding the emotion to the end of audio file name separated with '_' (e.g "20190616_125714_happy.wav" will be parsed automatically as happy)
+Emotions available
+There are 9 emotions available: "neutral", "calm", "happy" "sad", "angry", "fear", "disgust", "ps" (pleasant surprise) and "boredom".
 
-This project aims to develop a chatbot capable of interacting with users and providing precise answers from a collection of PDF documents. By leveraging natural language processing and machine learning techniques, the chatbot can comprehend user queries and retrieve relevant information efficiently. Utilizing OpenAI models, the chatbot harnesses advanced language models and embeddings to enhance conversational capabilities and deliver accurate responses.
+Feature Extraction
+Feature extraction is the main part of the speech emotion recognition system. It is basically accomplished by changing the speech waveform to a form of parametric representation at a relatively lesser data rate.
 
-## Features
+In this repository, we have used the most used features that are available in librosa library including:
 
-- **Support for Multiple PDFs**: Users can upload and query information from multiple PDF documents, enabling access to a variety of sources.  
-- **Conversational Retrieval**: The chatbot employs advanced conversational retrieval techniques to deliver relevant, context-aware responses.  
-- **Integration of Language Models**: OpenAI's language models are utilized for natural language understanding and generation, allowing the chatbot to engage in meaningful interactions.  
-- **PDF Content Extraction**: Text content is extracted from uploaded PDFs, forming the basis for indexing and retrieval.  
-- **Text Chunking for Efficiency**: The extracted text is divided into smaller chunks, enhancing retrieval efficiency and ensuring precise answers.  
-
-## Usage
-
-- **Upload PDF Files**: Utilize the sidebar to upload one or more PDF documents to the application.  
-- **Ask Your Questions**: Enter questions in the main chat interface related to the content of the uploaded PDFs.  
-- **Get Answers**: The chatbot will provide responses based on the information extracted from the PDFs.  
-
-## Sample Output
-![Output](demos/demo_min.gif)
-
-### WorkFlow
-![WorkFlow](workflow.png)
-
-### Query Flow
-![Query Flow](queryflow.png)
-
-
-## Installation
-
-To install and run the app, follow these steps:
-
-Clone the repository 
-
-```
-git clone https://github.com/codemaker2015/pdf-chat-using-RAG
-```
-
-Add your OpenAI Key by creating a .env file in the folder and add the following within it:
-
-```
-OPENAI_API_KEY=
-OPENAI_MODEL_NAME=gpt-3.5-turbo
-OPENAI_EMBEDDING_MODEL_NAME=text-embedding-3-small
-```
-
-Create a Virtual Environment
-
-```
-pip install virtualenv
-```
-
-to run this app do activate environment and run app
-
-```
-python -m venv venv
-source venv/bin/activate #for ubuntu
-venv/Scripts/activate #for windows
-```
-
-Install the dependencies using requirements.txt
-
-```bash
-pip install -r requirements.txt
-```
-
-```
-streamlit run app.py
-```
-
-
+MFCC
+Chromagram
+MEL Spectrogram Frequency (mel)
+Contrast
+Tonnetz (tonal centroid features)
