@@ -1,4 +1,4 @@
-# PDF Chat using RAG
+# Speeh Emotion Recognition
 
 ### Finding proper answer from PDF content.
 
