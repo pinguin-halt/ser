@@ -5,6 +5,20 @@
 - This repository handles building and training Speech Emotion Recognition System.
 - The basic idea behind this tool is to build and train/test a suited machine learning ( as well as deep learning ) algorithm that could recognize and detects human emotions from speech.
 - This is useful for many industry fields such as making product recommendations, affective computing, etc.
+  
+### 📌 Keywords
+- Speech Emotion Recognition
+- 1D CNN
+- Channel Attention
+- Spatial Attention
+- MFCC Features
+- Data Augmentation
+-  SAVEE
+-  RAVDESS
+-  CREMA-D
+-  TESS
+-  EMO-DB
+-  EMOVO
 
 ## Requirements
 - **Python 3.8+**
@@ -27,7 +41,7 @@ I have provided the link for downloading the datasets
 - [**EMOVO**](https://www.kaggle.com/datasets/sourabhy/emovo-italian-ser-dataset)
 - [**EmoDB**](https://www.kaggle.com/datasets/piyushagni5/berlin-database-of-emotional-speech-emodb)
 ## Model Archietecture
-![Figure](Speech Emotion Recogition/Figure/archietecture.png)
+![](images/joomla_speech_prosody.png?raw=true)
 ## Feature Extraction
 Feature extraction is the main part of the speech emotion recognition system. It is basically accomplished by changing the speech waveform to a form of parametric representation at a relatively lesser data rate
 In this repository, we have used the following features
