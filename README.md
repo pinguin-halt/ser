@@ -5,6 +5,20 @@
 - This repository handles building and training Speech Emotion Recognition System.
 - The basic idea behind this tool is to build and train/test a suited machine learning ( as well as deep learning ) algorithm that could recognize and detects human emotions from speech.
 - This is useful for many industry fields such as making product recommendations, affective computing, etc.
+  
+### 📌 Keywords
+- Speech Emotion Recognition
+- 1D CNN
+- Channel Attention
+- Spatial Attention
+- MFCC Features
+- Data Augmentation
+-  SAVEE
+-  RAVDESS
+-  CREMA-D
+-  TESS
+-  EMO-DB
+-  EMOVO
 
 ## Requirements
 - **Python 3.8+**
