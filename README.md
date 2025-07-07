@@ -68,5 +68,13 @@ preprocessing files
 ```
 Train the models
 for the model trainining run the training scripts
-
-
+## Citation
+```bibtex
+@software{TOWARD EFFICIENT SPEECH EMOTION RECOGNITION VIA SPECTRAL LEARNING AND ATTENTION,
+  author       = {HyeYoung Lee},
+  title        = {TOWARD EFFICIENT SPEECH EMOTION RECOGNITION VIA SPECTRAL LEARNING AND ATTENTION},
+  version      = {1.0.0},
+  year         = {2025},
+  publisher    = {Arxiv},
+  journal      = {Arxiv},
+}
