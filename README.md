@@ -41,7 +41,7 @@ I have provided the link for downloading the datasets
 - [**EMOVO**](https://www.kaggle.com/datasets/sourabhy/emovo-italian-ser-dataset)
 - [**EmoDB**](https://www.kaggle.com/datasets/piyushagni5/berlin-database-of-emotional-speech-emodb)
 ## Model Archietecture
-![](images/joomla_speech_prosody.png?raw=true)
+![](figure/archietecture.png?raw=true)
 ## Feature Extraction
 Feature extraction is the main part of the speech emotion recognition system. It is basically accomplished by changing the speech waveform to a form of parametric representation at a relatively lesser data rate
 In this repository, we have used the following features
