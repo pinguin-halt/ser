@@ -70,11 +70,10 @@ Train the models
 for the model trainining run the training scripts
 ## Citation
 ```bibtex
-@inproceedings{TOWARD EFFICIENT SPEECH EMOTION RECOGNITION VIA SPECTRAL LEARNING AND ATTENTION,
+@article{lee2025efficientser,
   author       = {HyeYoung Lee},
-  title        = {TOWARD EFFICIENT SPEECH EMOTION RECOGNITION VIA SPECTRAL LEARNING AND ATTENTION},
-  version      = {1.0.0},
+  title        = {Toward Efficient Speech Emotion Recognition via Spectral Learning and Attention},
+  journal      = {arXiv preprint arXiv:2507.03251},
   year         = {2025},
-  publisher    = {Arxiv},
-  url      = {https://arxiv.org/abs/2507.03251},
+  url          = {https://arxiv.org/abs/2507.03251}
 }
