@@ -43,7 +43,7 @@ I have provided the link for downloading the datasets
 ## Model Archietecture
 ![](figure/archietecture.png?raw=true)
 ## Accuracy Graph
-![](figure/comparions_graph.png?raw=true)
+![](figure/comparions_graph?raw=true)
 ## Feature Extraction
 Feature extraction is the main part of the speech emotion recognition system. It is basically accomplished by changing the speech waveform to a form of parametric representation at a relatively lesser data rate
 In this repository, we have used the following features
