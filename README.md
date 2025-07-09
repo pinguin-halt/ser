@@ -20,7 +20,7 @@
 - **matplotlib==2.2.3**
 
 ### Benchmark Datasets
-Given the current absence of standardized benchmarks and methods in speech emotion recognition, we conducted extensive evaluations across multiple test sets and performed a thorough comparison with recent state-of-the-art results. We used 6 datasets including RAVDESS, TESS, SAVEE, EMO-DB, CREMA-D, and EMOVO.
+
 I have provided the link for downloading the datasets 
 - [**RAVDESS**](https://www.kaggle.com/code/shivamburnwal/speech-emotion-recognition)
 - [**CREMA-D**](https://www.kaggle.com/datasets/ejlok1/cremad)
@@ -30,6 +30,7 @@ I have provided the link for downloading the datasets
 - [**EmoDB**](https://www.kaggle.com/datasets/piyushagni5/berlin-database-of-emotional-speech-emodb)
   
 ## Emotional Classification Performance
+Given the current absence of standardized benchmarks and methods in speech emotion recognition, we conducted extensive evaluations across multiple test sets and performed a thorough comparison with recent state-of-the-art results. We used 6 datasets including RAVDESS, TESS, SAVEE, EMO-DB, CREMA-D, and EMOVO.
 ![](figure/comparions_graph.png?raw=true)
 ## Feature Extraction
 Feature extraction is the main part of the speech emotion recognition system. It is basically accomplished by changing the speech waveform to a form of parametric representation at a relatively lesser data rate
