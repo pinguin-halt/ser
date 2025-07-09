@@ -20,7 +20,7 @@
 - **matplotlib==2.2.3**
 
 ### Benchmark Datasets
-This repository used 6 datasets including RAVDESS, TESS, SAVEE, EMO-DB, CREMA-D, and EMOVO.
+Given the current absence of standardized benchmarks and methods in speech emotion recognition, we conducted extensive evaluations across multiple test sets and performed a thorough comparison with recent state-of-the-art results. We used 6 datasets including RAVDESS, TESS, SAVEE, EMO-DB, CREMA-D, and EMOVO.
 I have provided the link for downloading the datasets 
 - [**RAVDESS**](https://www.kaggle.com/code/shivamburnwal/speech-emotion-recognition)
 - [**CREMA-D**](https://www.kaggle.com/datasets/ejlok1/cremad)
