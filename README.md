@@ -10,6 +10,7 @@
 ![](figure/archietecture.png?raw=true)
 
 # Highlights 🎯
+We focused on high-accuracy multilingual speech recognition, speech emotion recognition. Trained on six benchmark datasets and achieved state-of-the-art performance compared to previous speech emotion recognition models on the same datasets. 
 ## Requirements
 - **Python 3.8+**
 ### Python Packages
