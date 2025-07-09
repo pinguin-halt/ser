@@ -5,6 +5,7 @@
 🎙️ Speech Emotion Recognition (SER) using MFCCs and 1D-CNN with attention mechanisms.
 🚀 Achieves state-of-the-art accuracy across six benchmark datasets (SAVEE, RAVDESS, TESS, etc.).
 🧠 Robust, generalizable, and optimized for real-world human-computer interaction and assistive tech.
+
 ![](figure/archietecture.png?raw=true)
 ## Requirements
 - **Python 3.8+**
