@@ -2,9 +2,9 @@
 
 ### Introduction
 
-- This repository handles building and training Speech Emotion Recognition System.
-- The basic idea behind this tool is to build and train/test a suited machine learning ( as well as deep learning ) algorithm that could recognize and detects human emotions from speech.
-- This is useful for many industry fields such as making product recommendations, affective computing, etc.
+🎙️ Speech Emotion Recognition (SER) using MFCCs and 1D-CNN with attention mechanisms.
+🚀 Achieves state-of-the-art accuracy across six benchmark datasets (SAVEE, RAVDESS, TESS, etc.).
+🧠 Robust, generalizable, and optimized for real-world human-computer interaction and assistive tech.
   
 ### 📌 Keywords
 - Speech Emotion Recognition
