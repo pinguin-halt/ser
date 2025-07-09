@@ -24,7 +24,7 @@ We focused on high-accuracy multilingual speech recognition, speech emotion reco
 
 ### Benchmark Datasets 📝
 We performed the epxeriments on six benchmark dataset. The download link for these datasets in given below. 
-- [**RAVDESS**](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
+- [**RAVDESS**](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio) contains 1440 files: 60 trials per actor x 24 actors = 1440. The RAVDESS contains 24 professional actors (12 female, 12 male), vocalizing two lexically-matched statements in a neutral North American accent. Speech emotions includes calm, happy, sad, angry, fearful, surprise, and disgust expressions. Each expression is produced at two levels of emotional intensity (normal, strong), with an additional neutral expression.
 - [**CREMA-D**](https://www.kaggle.com/datasets/ejlok1/cremad)
 - [**SAVEE**](https://www.kaggle.com/datasets/ejlok1/surrey-audiovisual-expressed-emotion-savee)
 - [**TESS**](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess)
