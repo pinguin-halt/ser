@@ -6,9 +6,10 @@
 🚀 Achieves state-of-the-art accuracy across six benchmark datasets (SAVEE, RAVDESS, TESS, etc.).
 🧠 Robust, generalizable, and optimized for real-world human-computer interaction and assistive tech.
 
-# Highlights 🎯
 
 ![](figure/archietecture.png?raw=true)
+
+# Highlights 🎯
 ## Requirements
 - **Python 3.8+**
 ### Python Packages
