@@ -22,7 +22,7 @@ We focused on high-accuracy multilingual speech recognition, speech emotion reco
 - **tqdm==4.28.1**
 - **matplotlib==2.2.3**
 
-### Benchmark Datasets
+### Benchmark Datasets 📝
 
 I have provided the link for downloading the datasets 
 - [**RAVDESS**](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
