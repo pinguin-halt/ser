@@ -5,21 +5,7 @@
 🎙️ Speech Emotion Recognition (SER) using MFCCs and 1D-CNN with attention mechanisms.
 🚀 Achieves state-of-the-art accuracy across six benchmark datasets (SAVEE, RAVDESS, TESS, etc.).
 🧠 Robust, generalizable, and optimized for real-world human-computer interaction and assistive tech.
-  
-### 📌 Keywords
-- Speech Emotion Recognition
-- 1D CNN
-- Channel Attention
-- Spatial Attention
-- MFCC Features
-- Data Augmentation
--  SAVEE
--  RAVDESS
--  CREMA-D
--  TESS
--  EMO-DB
--  EMOVO
-
+![](figure/archietecture.png?raw=true)
 ## Requirements
 - **Python 3.8+**
 ### Python Packages
@@ -41,7 +27,7 @@ I have provided the link for downloading the datasets
 - [**EMOVO**](https://www.kaggle.com/datasets/sourabhy/emovo-italian-ser-dataset)
 - [**EmoDB**](https://www.kaggle.com/datasets/piyushagni5/berlin-database-of-emotional-speech-emodb)
 ## Model Archietecture
-![](figure/archietecture.png?raw=true)
+
 ## Accuracy Graph
 ![](figure/comparions_graph.png?raw=true)
 ## Feature Extraction
