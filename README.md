@@ -64,10 +64,9 @@ Train the models
 for the model trainining run the training scripts
 ## Citation
 ```bibtex
-@article{lee2025efficientser,
-  author       = {HyeYoung Lee},
-  title        = {Toward Efficient Speech Emotion Recognition via Spectral Learning and Attention},
-  journal      = {arXiv preprint arXiv:2507.03251},
-  year         = {2025},
-  url          = {https://arxiv.org/abs/2507.03251}
+@article{lee2025toward,
+  title={Toward Efficient Speech Emotion Recognition via Spectral Learning and Attention},
+  author={Lee, HyeYoung and Nadeem, Muhammad},
+  journal={arXiv preprint arXiv:2507.03251},
+  year={2025}
 }
